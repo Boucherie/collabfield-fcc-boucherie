@@ -8,5 +8,6 @@ Rails.application.routes.draw do
     get 'login', to: 'devise/sessions#new'
   end
 
+  devise_for :userd, :controllers => {:registrations => "registrations"}
 
 end
