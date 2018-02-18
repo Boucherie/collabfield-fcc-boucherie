@@ -8,6 +8,8 @@ end
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'jquery-rails'
 
+gem 'bootstrap_form'
+
 # authetication
 gem 'devise'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
